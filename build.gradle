@@ -1,10 +1,7 @@
 buildscript {
     repositories {
-        jcenter()
+        mavenCentral()
         gradlePluginPortal()
-    }
-    dependencies {
-        classpath 'ru.vyarus:gradle-quality-plugin:4.4.0'
     }
 }
 
@@ -13,7 +10,6 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java-library'
 apply plugin: 'maven-publish'
-apply plugin: 'ru.vyarus.quality'
 
 repositories {
     mavenCentral()

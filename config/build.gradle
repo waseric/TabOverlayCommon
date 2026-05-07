@@ -19,7 +19,6 @@ group 'de.codecrafter47.taboverlay'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java-library'
-apply plugin: 'ru.vyarus.quality'
 
 java {
     toolchain {
